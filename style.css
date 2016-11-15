@@ -2565,3 +2565,17 @@ ul.retina-icons li span {
 .navbar-form {
     padding: 12px 19px;
 }
+
+.login-form {
+    background-color: #edeff1;
+    border-radius: 6px;
+    padding: 38px 23px 20px;
+    position: relative;
+}
+.form-group {
+    margin-bottom: 30px;
+    position: relative;
+}
+.form-group label {
+    margin-left: 2px;
+}

@@ -20,6 +20,7 @@
 <link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="dist/css/flat-ui.min.css">
 <link rel='stylesheet' href='style.css' type='text/css' media='all' />
+<link rel='stylesheet' href='/style/css/demo.css' type='text/css' media='all' />
 <link rel='stylesheet' href='style/css/media-queries.css' type='text/css' media='all' />
 <!-- <link rel='stylesheet' href='style/js/fancybox/jquery.fancybox.css' type='text/css' media='all' />
 <link rel='stylesheet' href='style/js/fancybox/helpers/jquery.fancybox-buttons0ff5.css' type='text/css' media='all' />
@@ -71,9 +72,9 @@
     </div>
     <div class="collapse navbar-collapse" id="example-navbar-collapse">
         <ul class="nav navbar-nav">
-            <li class="active"><a href="#">简介</a></li>
-            <li><a href="#">组别</a></li>
-            <li><a href="#">成就</a></li>
+            <li class="active"><a href="#synopsis">简介</a></li>
+            <li><a href="#group">组别</a></li>
+            <li><a href="#achievement">成就</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#">登录</a></li>
@@ -155,10 +156,10 @@
       </div>
     </div>
     <div class="">
-      <div class="col-lg-12 col-xs-12" style="background: url('images/home.jpg');background-size: cover;background-attachment: fixed;background-repeat: repeat;padding: 0">
+      <div id="synopsis" class="col-lg-12 col-xs-12" style="background: url('images/home.jpg');background-size: cover;background-attachment: fixed;background-repeat: repeat;padding: 0">
         <button class="btn btn-primary col-lg-2 col-lg-offset-5 col-xs-4 col-xs-offset-4" style="z-index: 1001;margin-top: -18px;border: 2px solid rgba(255, 255, 255, .5)">加入我们</button>
           <div class="inner light"> </div>
-        <div class=" col-lg-10 col-lg-offset-1 col-xs-12" style="background: rgba(0, 0, 0, .5);border-radius: 10px;color: #fff;line-height: 35px;margin-bottom: 40px;padding-bottom: 40px">
+        <div class="col-lg-10 col-lg-offset-1 col-xs-12" style="background: rgba(0, 0, 0, .5);border-radius: 10px;color: #fff;line-height: 35px;margin-bottom: 40px;padding-bottom: 40px">
           <h2 class="text-center" style="color: #fff;margin-top: 30px">简介</h2>
           <div class="col-lg-5 col-xs-12 col-lg-offset-1"><!-- one-third -->
             安徽理工大学知通团队成立于2005年10月。团队创始人张亮亮为安徽理工大学2003届信息管理与信息系统毕业生。21世纪初，刚刚经历了“寒冬”的互联网开始复苏。但此时国内互联网发展刚起步，学习IT技术的资源少且成本高。为了帮助更多的同学了解和学习到先进的IT技术，张亮亮成立知通团队。团队成立初期，他在安徽理工大学本部东侧研究生楼租房进行教学研究活动，并自费购买台式计算机、桌椅等办公用品。初期招收学员较少，随后影响力扩大，团队扩招。
@@ -169,15 +170,77 @@
         </div>
         <div class="inner light">
       </div>
-      <div class="col-lg-12 col-xs-12" style="background: #ccc;height: 700px">
+      <div id="group" class="col-lg-12 col-xs-12" style="background: #ccc;height: 700px">
         dsfvdf
       </div>
-      <div class="col-lg-12 col-xs-12" style="background: #303030;height: 700px">
+      <div id="achievement" class="col-lg-12 col-xs-12" style="background: #303030;height: 700px">
         dsfvdf
       </div>
-      <!-- <div class="col-lg-12 col-xs-12" style="height: 500px">
-        dsfvdf
+      <!-- <div class="login">
+        <div class="login-screen">
+          <div class="login-icon">
+            <img src="img/login/icon.png" alt="Welcome to Mail App" />
+            <h4>Welcome to <small>Mail App</small></h4>
+          </div>
+
+          <div class="login-form">
+            <div class="form-group">
+              <input type="text" class="form-control login-field" value="" placeholder="Enter your name" id="login-name" />
+              <label class="login-field-icon fui-user" for="login-name"></label>
+            </div>
+
+            <div class="form-group">
+              <input type="password" class="form-control login-field" value="" placeholder="Password" id="login-pass" />
+              <label class="login-field-icon fui-lock" for="login-pass"></label>
+            </div>
+
+            <a class="btn btn-primary btn-lg btn-block" href="#">Log in</a>
+            <a class="login-link" href="#">Lost your password?</a>
+          </div>
+        </div>
       </div> -->
+      <!-- <div class="col-lg-12 col-xs-12">
+        <div class="inner light"> </div>
+        <div class="col-lg-6 col-lg-offset-3" style="background: rgba(26, 188, 156, .8);padding-top: 10px;margin-bottom: 40px;padding-bottom: 40px;">
+          <h3 class="text-center" style="color: #fff;margin-top: 30px;font-weight: normal;">登录</h3>
+          <div class="login-form col-lg-8 col-lg-offset-2" style="box-shadow: 0 0 3px #333">
+          <div class="form-group">
+              <input class="form-control login-field" id="username" name="username" placeholder="用户名" required="" type="text">
+          </div>
+          <div class="form-group">
+              <input class="form-control login-field" id="username" name="username" placeholder="密码" required="" type="text">
+          </div>
+            <div class="form-group">
+              <button  class="form-control login-field btn btn-primary btn-lg btn-block" value="" style="color: #fff;">登录</button>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <div class="col-lg-12 col-xs-12" style="background: rgba(0,0,0, .5);">
+        <div class="inner light"> </div>
+        <!-- <div class="col-lg-6 col-lg-offset-3 col-xs-12" style="padding-top: 10px;margin-bottom: 40px;padding-bottom: 50px;"> -->
+        <h3 class="text-center" style="color: #fff;font-weight: normal;"><i class="glyphicon glyphicon-leaf" style="color: #69AA46; margin-right: 10px; top: 3px;"></i>登录网站</h3>
+        <div class="login-form col-lg-4 col-lg-offset-4 col-xs-12" style="box-shadow: 0 0 3px #333;margin-bottom: 50px;margin-top: 10px;">
+          <div class="form-group">
+            <label for="">用户名</label>
+            <input class="form-control login-field" id="username" name="username" placeholder="用户名" required="" type="text">
+          </div>
+          <div class="form-group">
+            <label for="">密码</label><a href="" class="pull-right">忘记密码？</a>
+            <input class="form-control login-field" id="username" name="username" placeholder="密码" required="" type="text">
+          </div>
+          <div class="form-group">
+            <button class="form-control login-field btn btn-primary btn-lg btn-block" value="" style="color: #fff;">登录</button>
+          </div>
+          <div class="form-group">
+            <a href="#" onclick="" class="user-signup-link pull-right">
+                          我选择注册
+                          <i class="glyphicon glyphicon-hand-right"></i>
+                        </a>
+          </div>
+        </div>
+        <!-- </div> -->
+      </div>
     </div>
     <div class="footer">
       关于我们
@@ -185,9 +248,11 @@
   <!-- End Sub Footer Wrapper --> 
   </div>
 </div>
+</div>
 <!-- End Body Wrapper --> 
 <!-- <script type='text/javascript' src='style/js/jquery.min.js'></script> -->
 <script type='text/javascript' src='style/jquery-3.0.0.min.js'></script>
+<!-- <script src="style/jquery-migrate-3.0.0.js"></script> -->
 <script type="text/javascript" src="dist/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="dist/js/flat-ui.min.js"></script>
 <!-- <script type='text/javascript' src='style/js/ddsmoothmenu.js'></script> -->
@@ -209,5 +274,23 @@
 <!-- <script type='text/javascript' src='style/jquery.ui.accordion.min.js.10.3'></script> -->
 <!-- <script type='text/javascript' src='style/symple_accordion.js.0'></script> -->
 <!-- <div style="display:none"><script src='http//v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div> -->
+<script type="text/javascript">
+  $(function(){
+    var li = $('.navbar-nav li'),
+    body = 'html';
+    //判断浏览器
+    mozilla = /firefox/.test(navigator.userAgent.toLowerCase());
+    webkit = /webkit/.test(navigator.userAgent.toLowerCase());
+    opera = /opera/.test(navigator.userAgent.toLowerCase());
+    msie = /msie/.test(navigator.userAgent.toLowerCase());
+    console.log(jQuery.prototype);
+    li.click(function(){
+      var href = $(this).children('a').attr('href');
+      var destination = $(href).offset().top;
+      if (webkit) {body='body'}
+      $(body).animate({ scrollTop: destination}, 1000);
+    });
+  });
+</script>
 </body>
 </html>
