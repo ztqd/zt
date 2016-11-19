@@ -3,10 +3,63 @@
 <head>
 	<meta charset="UTF-8">
 	<title>知通团队</title>
-	<link rel="stylesheet" href="dist/css/bootstrap.min.css">
-	<link rel="stylesheet" href="style/css/jquery.dataTable.min.js">
+	<!-- <link rel="stylesheet" href="dist/css/bootstrap.min.css"> -->
+	<link rel="stylesheet" href="style/css/jquery.dataTables.min.css">
+	<style type="text/css">
+		#example tr>td{
+			text-align: center;
+		}
+	</style>
 </head>
 <body>
-	
+	<div class="container">
+		<table id="example" class="display" cellspacing="0" width="">
+			<thead>
+				<tr style="height: 45px;">
+					<th>姓名</th>
+					<th>组别</th>
+					<th>日期</th>
+					<th>开始时间</th>
+					<th>结束时间</th>
+					<th>计时总计</th>
+					<th>备注</th>
+				</tr>
+			</thead>
+		</table>
+	</div>
+
+	<script type="text/javascript" src="style/js/jquery.min.js"></script>
+	<!-- <script type="text/javascript" src="dist/js/bootstrap.min.js"></script> -->
+	<script type="text/javascript" src="style/js/jquery.dataTables.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#example').DataTable( {
+				"ajax": "datatable.json",
+				"bInfo" : false,
+				"bSort" : true,
+				"sScrollX" : 500,
+				"bAutoWidth" : true,
+				"iDisplayLength" : 6,
+				"oLanguage": { //国际化配置  
+                "sProcessing" : "正在获取数据，请稍后...",    
+                "sLengthMenu" : "显示 _MENU_ 条",    
+                "sZeroRecords" : "没有您要搜索的内容",    
+                "sInfo" : "从 _START_ 到  _END_ 条记录 总记录数为 _TOTAL_ 条",    
+                "sInfoEmpty" : "记录数为0",    
+                "sInfoFiltered" : "(全部记录数 _MAX_ 条)",    
+                "sInfoPostFix" : "",    
+                "sSearch" : "搜索",    
+                "sUrl" : "",    
+                "oPaginate": {    
+                    "sFirst" : "第一页",    
+                    "sPrevious" : "上一页",    
+                    "sNext" : "下一页",    
+                    "sLast" : "最后一页"    
+                }  
+          }
+			});
+		$('#example_length').remove();
+		});
+	</script>
 </body>
 </html>
