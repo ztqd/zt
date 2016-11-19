@@ -1,39 +1,69 @@
-<!DOCTYPE HTML>
+<?php
+//登录
+if (isset($_POST['sub'])) {
+    if (empty($_POST['name'])||empty($_POST['pwd'])){
+        echo '<script>alert(\'所填选项不能为空\')</script>';
+    }else{
+        $name=$_POST['name'];
+        $pwd=$_POST['pwd'];
+        $conn=mysqli_connect('127.0.0.1','root','','zt_sign')or die("连接失败");
+        mysqli_query($conn,"set names utf8");
+        $sql="select name,pwd from userInfo where name='$name'";
+        $res=mysqli_query($conn,$sql);//获取资源
+        $num = mysqli_num_rows($res);//获取查询到的条数
+        if ($num==0){
+            echo '<script>alert(\'您还未注册！\')</script>';
+        }else{
+            $realPwd = mysqli_fetch_assoc($res)['pwd'];
+            if ($realPwd==$pwd){
+                session_start();
+                $_SESSION['name']=$name;
+                header("location:./code/demo.php");
+            }else{
+                echo '<script>alert(\'密码错误\')</script>';
+            }
+        }
+    }
+}
+//注册
+if (isset($_POST[''])) {
+}
+?>
+
 <html lang="en-US">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <title>知通团队</title>
-
 <link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="dist/css/flat-ui.min.css">
 <link rel='stylesheet' href='style.css' type='text/css' media='all' />
 <link rel='stylesheet' href='style/css/media-queries.css' type='text/css' media='all' />
 <script type='text/javascript' src='style/jquery.js'></script>
 <script type='text/javascript' src='style/jquery-migrate.min.js'></script>
-
 </head>
 <body class="full-layout" style="background-image: url('images/home.jpg');background-color:rgba(0,0,0, .5);background-size: cover;">
   <!-- <div class="body-wrapper">  -->
       <div id="synopsis" class="col-lg-12 col-xs-12" style="background-attachment: fixed;background-repeat: repeat;padding: 0">
         <!-- <div class="inner light"> </div> -->
-        
         <!-- 登录  -->
+         <form action="" method="post">
         <div id="login" class="col-lg-12 col-xs-12"> <!-- style="background: rgba(0,0,0, .5);" -->
           <div class="inner light"> </div>
           <h3 class="text-center" style="color: #fff;font-weight: normal;"><i class="glyphicon glyphicon-leaf" style="color: #69AA46; margin-right: 10px; top: 3px;"></i>登录网站</h3>
           <div class="login-form col-lg-4 col-lg-offset-4 col-xs-12" style="box-shadow: 0 0 3px #333;margin-bottom: 50px;margin-top: 10px;">
             <div class="form-group">
               <label for="">用户名</label>
-              <input class="form-control login-field" id="username" name="username" placeholder="用户名" required="" type="text">
+              <input class="form-control login-field" id="username" name="name" placeholder="用户名" required="" type="text">
             </div>
             <div class="form-group">
               <label for="">密码</label><a href="" class="pull-right">忘记密码？</a>
-              <input class="form-control login-field" id="username" name="username" placeholder="密码" required="" type="password">
+              <input class="form-control login-field" id="username" name="pwd" placeholder="密码" required="" type="password">
             </div>
             <div class="form-group">
-              <button class="login_btn form-control login-field btn btn-primary btn-lg btn-block" style="color: #fff;">登录</button>
+              <input class="login_btn form-control login-field btn btn-primary btn-lg btn-block" style="color: #fff;" value="登录" type="submit" name="sub"/>
             </div>
+            </form>
             <div class="form-group">
               <a class="user_lg pull-right">
                 没有账号？注册
@@ -43,6 +73,7 @@
           </div>
         </div>
         <!-- 注册 -->
+  <form action=""></form>
         <div id="register" class="col-lg-12 col-xs-12" style="display: none;">
           <div class="inner light"> </div>
           <h3 class="text-center" style="color: #fff;font-weight: normal;"><i class="glyphicon glyphicon-leaf" style="color: #69AA46; margin-right: 10px; top: 3px;"></i>注册用户</h3>
@@ -55,29 +86,36 @@
             </div>
             <div class="form-group">
               <label for="">姓名</label>
-              <input class="form-control login-field" id="username" name="username" placeholder="姓名" required="" type="text">
+              <input class="form-control login-field" id="username" name="name" placeholder="姓名" required="" type="text">
             </div>
             <div class="form-group">
               <label for="">班级</label>
-              <input class="form-control login-field" id="username" name="username" placeholder="xx专业11-1班" required="" type="text">
+              <input class="form-control login-field" id="username" name="major" placeholder="xx专业11-1班" required="" type="text">
             </div>
             <div class="form-group">
               <label for="">组别</label>
-              <input class="form-control login-field" id="username" name="username" placeholder="Java/php/前端" required="" type="text">
+              <input class="form-control login-field" id="username" name="group" placeholder="Java/php/前端" required="" type="text">
             </div>
             <div class="form-group">
               <label for="">手机号</label>
-              <input class="form-control login-field" id="username" name="username" placeholder="手机号" required="" type="text">
+              <input class="form-control login-field" id="username" name="phoneNum" placeholder="手机号" required="" type="text">
             </div>
             <div class="form-group">
               <label for="">QQ号</label>
-              <input class="form-control login-field" id="username" name="username" placeholder="QQ号" required="" type="text">
+              <input class="form-control login-field" id="username" name="qqNum" placeholder="QQ号" required="" type="text">
             </div>
+              <div class="form-group">
+                  <label for="">设置密码</label>
+                  <input class="form-control login-field" id="username" name="pwd" placeholder="设置密码" required="" type="text">
+              </div>
+              <div class="form-group">
+                  <label for="">重复密码</label>
+                  <input class="form-control login-field" id="username" name="confPwd" placeholder="重复密码" required="" type="text">
+              </div>
             <div class="form-group">
               <label for=""></label>
-              <button class="form-control login-field btn btn-primary btn-lg btn-block" value="" style="color: #fff;">报名</button>
+              <input type="submit" class="form-control login-field btn btn-primary btn-lg btn-block" value="报名"  name="subRegister"style="color: #fff;"/>
             </div>
-            
           </div>
           <!-- </div> -->
         </div>
@@ -99,7 +137,6 @@
     msie = /msie/.test(navigator.userAgent.toLowerCase());
     var li = $('.navbar-nav:first-child li');
     body = webkit?'body':'html';
-
     //登录注册切换
     $('.user_lg').click(function(){
       $('#login').hide();
@@ -113,3 +150,4 @@
 </script>
 </body>
 </html>
+
