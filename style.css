@@ -2661,3 +2661,61 @@ option {
 .pos-left.clearfix, .pos-right.clearfix {
     color: #303030;
 }
+
+.footer{
+    background: #24272C !important;
+    border-top: solid #ccc 1px;
+    text-align: center;
+    padding:30px 20px;
+    color: #fff;
+}
+.foot{
+    margin-bottom: 20px;
+}
+.foot_hed{
+    font-size: 22px;
+}
+.foot_cont{
+    font-size: 12px;
+    color: #999999;
+    margin-top: 20px;
+    line-height: 20px;
+}
+.foot_center,.foot_right{
+    font-size: 18px;
+    color: #ccc;
+}
+.center_cont{
+    margin-top: 10px;
+}
+.center_cont ul{
+    margin: auto;
+    padding: 5px;
+}
+.center_cont ul li{
+    display: inline;
+    padding: 10px;
+}
+
+.center_cont a{
+    font-size: 12px;
+    color: #999;
+}
+.center_cont ul li a:hover{
+    color: #10AE58;
+}
+.weixin a,.weibo a{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #999;
+}
+.weixin a:hover,.weibo a:hover{
+    color: #10AE58;
+}
+.foot_right img{
+    margin: auto;
+}
+.about-information{
+    margin-top: 25px;
+}

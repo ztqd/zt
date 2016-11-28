@@ -131,7 +131,7 @@
         </div>
       </div>
       <!-- 轮播图至底部 -->
-      <div id="synopsis" class="col-lg-12 col-xs-12" style="background: url('images/home.jpg');background-size: cover;background-attachment: fixed;background-repeat: repeat;padding: 0">
+      <div id="synopsis" class="col-lg-12 col-xs-12" style="background: url('images/home.jpg');background-size: cover;background-attachment: fixed;background-repeat: repeat;padding: 0;position: static;">
         <a href="#register" class="addus btn btn-primary col-lg-2 col-lg-offset-5 col-xs-4 col-xs-offset-4" style="z-index: 1001;margin-top: -18px;border: 2px solid rgba(255, 255, 255, .5)">加入我们</a>
         <div class="inner light"> </div>
         <!-- 简介 -->
@@ -343,9 +343,50 @@
       </div>
     </div>
     <!-- 底部 -->
-    <div class="footer">
-          关于我们
+    <div class="footer col-lg-12 col-sm-12 col-xs-12" style="background: #24272C;">
+      <div class="col-sm-4 col-xs-12 foot">
+        <div class="foot_hed">知通团队</div>
+        <div class="foot_cont">
+          我们从这里出发，我们从这里学习。<br/>我们从这里成长，我们从这里怀念。
+        </div>
+      </div>
+      <div class="col-sm-4 col-xs-12 foot">
+        <div class="foot_center">
+          <span>| 关于我们</span>
+          <div class="col-sm-12 col-xs-12 center_cont">
+            <ul class="col-sm-12 col-xs-12">
+              <li><a href="">关于我们</a></li>
+              <li><a href="">联系我们</a></li>
+            </ul>
+            <ul class="col-sm-12 col-xs-12">
+              <li><a href="">意见反馈</a></li>
+              <li><a href="">常见问题</a></li>
+            </ul>
+            <ul class="col-sm-12 col-xs-12">
+              <li><a href="">团队历史</a></li>
+              <li><a href="">成员介绍</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-xs-12 foot">
+        <div class="foot_right">
+          <span>| 关注我们</span>
+          <div class="col-sm-12 col-xs-12 about-information">
+            <ul class="col-sm-6 col-xs-6">
+              <li class="weixin"><a href="">知通微信</a></li>
+              <li class="weixinImg"><img src="images/weixin.png" class="img-responsive"></li>
+            </ul>
+            <ul class="col-sm-6 col-xs-6">
+              <li class="weibo"><a href="">知通微博</a></li>
+              <li class="weiboImg"><img src="images/weixin.png" class="img-responsive"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
+
+
     <ul class="rt_operation">
       <li class="top" style="display: none;border-bottom: 1px solid #ccc">
         <a href="#top" title="返回顶部">
@@ -461,6 +502,16 @@
       $('#login').hide();
       $('#register').show();
     });
+    /*$('.weixin').hover(function(){
+      $('.weixinImg').css('display','block');
+    },function(){
+      $('.weixinImg').css('display','none');
+    });
+     $('.weibo').hover(function(){
+      $('.weiboImg').css('display','block');
+    },function(){
+      $('.weiboImg').css('display','none');
+    });*/
   });
 </script>
 </body>
