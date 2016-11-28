@@ -2658,3 +2658,6 @@ option {
 .form-control, .select2-search input[type=text] {
     font-family: "Microsoft Yahei";
 }
+.pos-left.clearfix, .pos-right.clearfix {
+    color: #303030;
+}

@@ -22,6 +22,7 @@
 <link rel='stylesheet' href='style.css' type='text/css' media='all' />
 <!-- <link rel='stylesheet' href='/style/css/demo.css' type='text/css' media='all' /> -->
 <link rel='stylesheet' href='style/css/media-queries.css' type='text/css' media='all' />
+<link rel="stylesheet" type="text/css" href="style/css/jquery.eeyellow.Timeline.css">
 <!-- <link rel='stylesheet' href='style/js/fancybox/jquery.fancybox.css' type='text/css' media='all' />
 <link rel='stylesheet' href='style/js/fancybox/helpers/jquery.fancybox-buttons0ff5.css' type='text/css' media='all' />
 <link rel='stylesheet' href='style/js/fancybox/helpers/jquery.fancybox-thumbs0ff5.css' type='text/css' media='all' />
@@ -146,16 +147,17 @@
         <div class="inner light"></div>
         <!-- 组别  -->
         <div id="group" class="col-lg-12 col-xs-12" style="background: #f0f0f0;height: 700px;background-size: contain;"><!-- background: url('images/g3.jpg'); -->
-          <div class="col-lg-4">
+         <!--  <div class="col-lg-4">
             <h2 class="text-center" style="margin-top: 30px">简介</h2>
             <div>
             dsfvdf导：查询量酬考核结果（本部门）产品经理：查询导：查询量酬考核结果（本部门） 产品经理：查询导：查询量酬考核结果（本部门）产品经理：查询导：查询量酬考核结果（本部门） 产品经理：查询导：查询量酬考核结果（本部门）产品经理：查询导：查询量酬考核结果（本部门）产品经理：查询
             </div>
-          </div>
+          </div> -->
+          
         </div>
         <!-- 成就 -->
-        <div id="achievement" class="col-lg-12 col-xs-12" style="background: #303030;color: #fff;">
-          <div class="inner light"> </div>
+        <div id="achievement" class="col-lg-12 col-xs-12" style="background: #303030;color: #fff;padding-bottom: 40px;"><!-- #494A5F -->
+          <!-- <div class="inner light"> </div>
           <div class="col-lg-12">
             <div class="col-lg-4">
               <div style="height: 200px;width: 200px;text-align: center;margin: auto;">
@@ -194,6 +196,81 @@
                 </div>
               </div>
             </div>
+          </div> -->
+          <div class="VivaTimeline col-lg-10 col-lg-offset-1 col-xs-12" style="padding: 0">
+            <dl>
+                <dt>2005年</dt>                                    
+                <dd class="pos-left clearfix">
+                    <div class="circ"></div>
+                    <div class="time">10月</div>
+                    <div class="events">
+                        <div class="events-header">成立</div>
+                        <div class="events-body">
+                            <div class="row">
+                              <div class="col-md-6 pull-left">
+                                    <img class="events-object img-responsive img-rounded" src="images/1.jpg"/>                        
+                                </div>
+                                <div class="events-desc">
+                                  知通团队成立
+                                </div>
+                            </div>      
+                           <!--  <div class="row">
+                              <div class="col-md-6 pull-left">
+                                    <img class="events-object img-responsive img-rounded" src="images/1.jpg"/>
+                                </div>
+                                <div class="events-desc">
+                                  Morbi at nisi vitae mauris pretium egestas. Morbi placerat risus ligula, nec placerat urna porta vel. Nullam sollicitudin orci quis odio eleifend, ut facilisis orci lobortis. Vivamus sed lobortis odio. Nam volutpat, leo a ullamcorper luctus, sapien libero auctor est, sed semper massa turpis sed quam. Mauris posuere, libero in ultricies dignissim, lacus purus egestas urna, nec semper lorem tellus non eros. Nam at bibendum libero. Curabitur a ante et orci cursus tincidunt. Vivamus dictum, libero et rhoncus congue, nulla erat mollis dui, vitae cursus dui justo quis velit. In a tellus arcu. Nam at lobortis nisl. Donec consequat placerat eros, quis elementum mauris sodales a. Maecenas id feugiat velit. Phasellus dictum eleifend varius. Cras nec orci turpis. Aenean ut turpis nibh.
+                                </div>
+                            </div>  
+                            <div class="row">
+                              <div class="col-md-6 pull-left">
+                                    <img class="events-object img-responsive img-rounded" src="images/1.jpg"/>
+                                </div>
+                                <div class="events-desc">
+                                  Cras condimentum, metus ut vehicula euismod, odio massa pulvinar neque, id gravida neque est et sem. Proin consequat id nibh quis molestie. Quisque vehicula purus id purus elementum facilisis. Phasellus sodales nibh quis neque rhoncus aliquet. Nunc eget ipsum efficitur, pretium arcu et, gravida purus. Phasellus tempor lacus ac enim pulvinar elementum. Integer aliquet justo lacinia nunc tempus vulputate.
+                                </div>
+                            </div> -->                                    
+                        </div>   
+                        <!-- <div class="events-footer">
+                        </div> -->                               
+                    </div>
+                </dd>
+                <dt>2009</dt>
+                <dd class="pos-right clearfix">
+                    <div class="circ"></div>
+                    <div class="time">Jan 21</div>
+                    <div class="events">
+                        <div class="events-header">建立就业实习基地 </div>
+                        <div class="events-body">
+                            <div class="row">
+                              <div class="col-md-6 pull-left">
+                                    <img class="events-object img-responsive img-rounded" src="images/1.jpg"/>
+                                </div>
+                                <div class="events-desc">
+                                  与安徽省淮南市签订合同，成为安徽省淮南市创业就业实习基地
+                                </div>
+                            </div>
+                        </div>       
+                    </div>
+                </dd>   
+                <dd class="pos-left clearfix">
+                    <div class="circ"></div>
+                    <div class="time">Jan 07</div>
+                    <div class="events">
+                        <div class="events-header">Event Heading</div>
+                        <div class="events-body">
+                            <div class="row">
+                              <div class="col-md-6 pull-left">
+                                    <img class="events-object img-responsive img-rounded" src="images/1.jpg" />
+                                </div>
+                                <div class="events-desc">
+                                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                </div>
+                            </div>
+                        </div>                                
+                    </div>
+                </dd>                                    
+            </dl>
           </div>
         </div>
         <!-- 登录  -->
@@ -241,7 +318,11 @@
             </div>
             <div class="form-group">
               <label for="">意愿组别</label>
-              <input class="form-control login-field" id="username" name="username" placeholder="Java/php/前端" required="" type="text">
+              <select name="groupName" class="form-control login-field">
+                    <option value="前端" >前端</option>
+                    <option value="PHP">PHP</option>
+                    <option value="JAVA">JAVA</option>
+                </select>
             </div>
             <div class="form-group">
               <label for="">手机号</label>
@@ -296,6 +377,7 @@
 <!-- <script src="style/jquery-migrate-3.0.0.js"></script> -->
 <script type="text/javascript" src="dist/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="dist/js/flat-ui.min.js"></script>
+<script type="text/javascript" src="style/js/jquery.eeyellow.Timeline.js"></script>
 <!-- <script type='text/javascript' src='style/js/ddsmoothmenu.js'></script> -->
 <!-- <script type='text/javascript' src='style/js/jquery.isotope.min.js'></script> -->
 <!-- <script type='text/javascript' src='style/js/twitter.min.js'></script> -->
@@ -317,6 +399,10 @@
 <!-- <div style="display:none"><script src='http//v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div> -->
 <script type="text/javascript">
   $(function(){
+    $('.VivaTimeline').vivaTimeline({
+        carousel: true,
+        carouselTime: 3000
+      });
     //判断浏览器
     mozilla = /firefox/.test(navigator.userAgent.toLowerCase());
     webkit = /webkit/.test(navigator.userAgent.toLowerCase());
@@ -329,12 +415,13 @@
     li.click(function(){
       $(this).addClass('active').siblings().removeClass('active')
       var href = $(this).children('a').attr('href');
-      var destination = $(href).offset().top;
+      var destination = $(href).offset().top - 50;
       // if (webkit) {body='body'}
       $(body).animate({ scrollTop: destination}, 1000);
     });
     //离开顶部时显示返回顶部按钮
     $(window).scroll(function(){
+      // $('.rt_operation').show()
       if($(body).scrollTop() > 0) {
         $('.top').show();
       } else {
