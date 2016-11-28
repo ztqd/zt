@@ -357,7 +357,7 @@
           <i class="glyphicon glyphicon-qrcode"></i>
         </a>
         <div class="qrcode" style="display: none;">
-          <div class="lt_triangel" style="position: absolute; right: -20px;float: right;top: 50px;"></div>
+          <div class="lt_triangel" style="position: absolute; right: -18px;float: right;top: 50px;"></div>
           <img src="images/1.jpg" alt="" style="width: 100px;height: 100px;margin: auto;">
           <span>扫一扫关注微信</span>
         </div>
