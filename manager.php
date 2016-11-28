@@ -45,8 +45,8 @@
 	          <li class="manager"><a href="manager.php">后台管理</a></li>
 	        </ul>
 	        <ul class="nav navbar-nav navbar-right">
-	          <li><a href="" class="user-name">admin</a></li>
-	          <li><a href="" class="">退出</a></li>
+	          <li><a href="" class="user-name"><? echo $_SESSION['name'] ?></a></li>
+            <li><a class="exit">退出</a></li>
 	        </ul>
 	      </div>
 	      </div>

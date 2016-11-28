@@ -2645,3 +2645,16 @@ a:hover {
 #register .form-control, .select2-search input[type="text"] {
     height: 37px;
 }
+.login-form .login-field {
+    font-size: 15px;
+}
+option {
+    padding: 3px 0;
+    text-indent: 5px;
+}
+.form-control, .select2-search input[type="text"] {
+    padding-top: 6px;
+}
+.form-control, .select2-search input[type=text] {
+    font-family: "Microsoft Yahei";
+}

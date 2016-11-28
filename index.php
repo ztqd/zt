@@ -145,12 +145,56 @@
         </div>
         <div class="inner light"></div>
         <!-- 组别  -->
-        <div id="group" class="col-lg-12 col-xs-12" style="background: #ccc;height: 700px">
-          dsfvdf
+        <div id="group" class="col-lg-12 col-xs-12" style="background: #f0f0f0;height: 700px;background-size: contain;"><!-- background: url('images/g3.jpg'); -->
+          <div class="col-lg-4">
+            <h2 class="text-center" style="margin-top: 30px">简介</h2>
+            <div>
+            dsfvdf导：查询量酬考核结果（本部门）产品经理：查询导：查询量酬考核结果（本部门） 产品经理：查询导：查询量酬考核结果（本部门）产品经理：查询导：查询量酬考核结果（本部门） 产品经理：查询导：查询量酬考核结果（本部门）产品经理：查询导：查询量酬考核结果（本部门）产品经理：查询
+            </div>
+          </div>
         </div>
         <!-- 成就 -->
-        <div id="achievement" class="col-lg-12 col-xs-12" style="background: #303030;height: 700px">
-          dsfvdf
+        <div id="achievement" class="col-lg-12 col-xs-12" style="background: #303030;color: #fff;">
+          <div class="inner light"> </div>
+          <div class="col-lg-12">
+            <div class="col-lg-4">
+              <div style="height: 200px;width: 200px;text-align: center;margin: auto;">
+                2000年
+                <div style="height: 200px;width: 200px;border: 3px solid #1ABC9C;border-radius: 200px;padding: 30px;">果（本部门）产品经理：查询导：查询量酬考核结果（本部门） 产品经理：查询导：
+                </div>  
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div style="height: 200px;width: 200px;text-align: center;margin: auto;">
+                2000年
+                <div style="height: 200px;width: 200px;border: 3px solid #1ABC9C;border-radius: 200px;padding: 30px;">果（本部门）产品经理：查询导：查询量酬考核结果（本部门） 产品经理：查询导：
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div style="height: 200px;width: 200px;text-align: center;margin: auto;">
+                2000年
+                <div style="height: 200px;width: 200px;border: 3px solid #1ABC9C;border-radius: 200px;padding: 30px;">果（本部门）产品经理：查询导：查询量酬考核结果（本部门） 产品经理：查询导：
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-10 col-lg-offset-1" style="top: -30px">
+            <div class="col-lg-6">
+              <div style="height: 200px;width: 200px;text-align: center;margin: auto;">
+                2000年
+                <div style="height: 200px;width: 200px;border: 3px solid #1ABC9C;border-radius: 200px;padding: 30px;">果（本部门）产品经理：查询导：查询量酬考核结果（本部门） 产品经理：查询导：
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div style="height: 200px;width: 200px;text-align: center;margin: auto;">
+                2000年
+                <div style="height: 200px;width: 200px;border: 3px solid #1ABC9C;border-radius: 200px;padding: 30px;">果（本部门）产品经理：查询导：查询量酬考核结果（本部门） 产品经理：查询导：
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <!-- 登录  -->
         <div id="login" class="col-lg-12 col-xs-12" style="background: rgba(0,0,0, .5);">
@@ -228,7 +272,7 @@
         </a>
       </li>
       <li class="qrcode_show">
-        <a href="">
+        <a>
           <i class="glyphicon glyphicon-qrcode"></i>
         </a>
         <div class="qrcode" style="display: none;">
@@ -238,7 +282,7 @@
         </div>
       </li>
       <li class="letter" style="border-top: 1px solid #ccc">
-        <a href="">
+        <a>
           <i class="glyphicon glyphicon-envelope"></i>
           <span style="display: none;font-size: 12px">意见反馈</span>
         </a>
