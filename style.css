@@ -2719,7 +2719,79 @@ option {
 .about-information{
     margin-top: 25px;
 }
-#group > div>div {
+/*#group > div {
+    position: absolute;
+}*/
+.group_computer {
+    margin: auto;
+    width: 86%;
+    height: 600px;
+}
+.group_computer > li {
     background: #fff;
     border: 1px solid #ccc;
+    float: left;
+    height: 540px;
+    /*padding: 20px;*/
+    width: 30%;
+    position: relative;
+    margin-left: -1px;
+    transition: .2s;
+}
+.group_active {
+    top: -20px;
+    height: 600px !important;
+    border: 1px solid #1ABC9C !important;
+    box-shadow: 0 0 15px #1ABC9C !important;
+    width: 40% !important;
+    z-index: 3 !important;
+}
+.show_content {
+    height: 500px;
+    background: #fff;
+}
+.show_content > div {
+    padding: 20px;
+}
+.group_s {
+    background: #E5E6E6 none repeat scroll 0 0;
+    color: #303030;
+    font-size: 34px;
+    height: 230px;
+    line-height: 230px;
+}
+.group_h {
+    background: #1abc9c none repeat scroll 0 0;
+    color: #fff;
+    font-size: 34px;
+    height: 230px;
+    line-height: 230px;
+}
+
+.swiper-container {
+    width: 100%;
+    /*height: 100%;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 14px;
+    /*background: #fff;*/
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }

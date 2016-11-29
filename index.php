@@ -22,6 +22,7 @@
 <link rel='stylesheet' href='style.css' type='text/css' media='all' />
 <!-- <link rel='stylesheet' href='/style/css/demo.css' type='text/css' media='all' /> -->
 <link rel='stylesheet' href='style/css/media-queries.css' type='text/css' media='all' />
+<link rel='stylesheet' href='style/css/swiper.min.css' type='text/css' media='all' />
 <link rel="stylesheet" type="text/css" href="style/css/jquery.eeyellow.Timeline.css">
 <!-- <link rel='stylesheet' href='style/js/fancybox/jquery.fancybox.css' type='text/css' media='all' />
 <link rel='stylesheet' href='style/js/fancybox/helpers/jquery.fancybox-buttons0ff5.css' type='text/css' media='all' />
@@ -148,32 +149,72 @@
         </div>
         <div class="inner light"></div>
         <!-- 组别  -->
-        <div id="group" class="col-lg-12 col-xs-12" style="background: #f0f0f0;height: 700px;background: url('images/bg5.jpg') repeat;">
-          <span class="marks"></span>        
-          <div class="col-lg-4">
-            <div class="col-lg-10">
-              <h2 class="text-center" style="margin-top: 30px">前端组</h2>
-              <div>
-              dsfvdf导：查询量酬考核结果（本部门）产品经理：查询导：查询量酬考核结果（本部门） 产品经理：查询导：查询量酬考核结果（本部门）产品经理：查询导：查询量酬考核结果（本部门） 产品经理：查询导：查询量酬考核结果（本部门）产品经理：查询导：查询量酬考核结果（本部门）产品经理：查询
-              </div>
+        <div id="group" class="col-lg-12 col-xs-12" style="background: #f0f0f0;background: url('images/bg5.jpg') repeat;">
+          <div class="inner light visible-lg-block visible-md-block"></div>
+          <span class="marks"></span>
+            <ul class="group_computer visible-lg-block visible-md-block">   
+              <li class="group_active">
+                <div class="show_content" style="display: none;">
+                  <p class="text-center group_s">前端组</p>
+                  <div>
+                  </div>
+                </div>
+                <div class="hide_content">
+                  <p class="text-center group_h">前端组</p>
+                  <div  style="min-width: 360px;max-width:400px;margin: auto;margin-top: 10px">
+                    前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组
+                  </div>
+                </div>
+              </li>
+              <li class="">
+                <div class="show_content" style="">
+                <p class="text-center group_s">PHP组</p>
+                  <div>
+                  </div>
+                </div>
+                <div class="hide_content" style="display: none;">
+                  <p class="text-center group_h">PHP组</p>
+                  PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组
+                </div>
+              </li>
+              <li class="">
+                <div class="show_content">
+                  <p class="text-center group_s">Java组</p>
+                  <div>
+                  </div>
+                </div>
+                <div class="hide_content" style="display: none;">
+                  <p class="text-center group_h">Java组</p>
+                    Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组
+                </div>
+              </li>
+            </ul>
+            <div class="swiper-container hidden-lg hidden-md">
+              <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div>
+                        <p>前端组</p>
+                        <div class="col-lg-6 col-sm-6">
+                          前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组
+                        </div>
+                        <div class="col-lg-6 col-sm-6">
+                          前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <p>PHP</p>
+                    </div>
+                    <div class="swiper-slide">
+                      <p>Java</p>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
             </div>
-          </div>
-          <div class="col-lg-4">
-            <h2 class="text-center" style="margin-top: 30px">PHP组</h2>
-            <div>
-            dsfvdf导：查询量酬考核结果（本部门）产品经理：查询导：查询量酬考核结果（本部门） 产品经理：查询导：查询量酬考核结果（本部门）产品经理：查询导：查询量酬考核结果（本部门） 产品经理：查询导：查询量酬考核结果（本部门）产品经理：查询导：查询量酬考核结果（本部门）产品经理：查询
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <h2 class="text-center" style="margin-top: 30px">Java组</h2>
-            <div>
-            dsfvdf导：查询量酬考核结果（本部门）产品经理：查询导：查询量酬考核结果（本部门） 产品经理：查询导：查询量酬考核结果（本部门）产品经理：查询导：查询量酬考核结果（本部门） 产品经理：查询导：查询量酬考核结果（本部门）产品经理：查询导：查询量酬考核结果（本部门）产品经理：查询
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-12" style="background: url('images/bg8.jpg');height: 10px"></div>
+        </div> 
+        <div class="col-lg-12 visible-lg-block" style="background: url('images/bg8.jpg');height: 10px"></div>
         <!-- 历程 -->
-        <div id="achievement" class="col-lg-12 col-xs-12" style="background: #303030;color: #fff;padding-bottom: 40px;background: url('images/bg4.png');"><!-- #494A5F -->
+        <div id="achievement" class="col-lg-12 col-xs-12" style="background: #303030;color: #fff;padding-bottom: 40px;background: url('images/bg9.jpg');"><!-- #494A5F -->
           <span class="marks"></span>        
           <div class="VivaTimeline col-lg-10 col-lg-offset-1 col-xs-12" style="padding: 0">
             <dl>
@@ -252,7 +293,7 @@
           </div>
         </div>
         <!-- 成员 -->
-        <div class="col-lg-12" id="member">
+        <div class="col-lg-12" id="member" style="height: 200px;">
           <span class="marks"></span>          
         </div>
         <!-- 登录  -->
@@ -399,7 +440,6 @@
 <!-- End Body Wrapper --> 
 <!-- <script type='text/javascript' src='style/js/jquery.min.js'></script> -->
 <script type='text/javascript' src='style/jquery-3.0.0.min.js'></script>
-<!-- <script src="style/jquery-migrate-3.0.0.js"></script> -->
 <script type="text/javascript" src="dist/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="dist/js/flat-ui.min.js"></script>
 <script type="text/javascript" src="style/js/jquery.eeyellow.Timeline.js"></script>
@@ -418,16 +458,27 @@
 <!-- <script type='text/javascript' src='style/js/fancybox/helpers/jquery.fancybox-mediae209.js'></script> -->
 <script type='text/javascript' src='style/js/scripts.js'></script>
 <!-- <script type='text/javascript' src='style/jquery.ui.core.min.js.10.3'></script> -->
+<script type='text/javascript' src='style/js/swiper.min.js'></script>
 <!-- <script type='text/javascript' src='style/jquery.ui.widget.min.js.10.3'></script> -->
 <!-- <script type='text/javascript' src='style/jquery.ui.accordion.min.js.10.3'></script> -->
 <!-- <script type='text/javascript' src='style/symple_accordion.js.0'></script> -->
 <!-- <div style="display:none"><script src='http//v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div> -->
 <script type="text/javascript">
   $(function(){
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        slidesPerView: 1,
+        paginationClickable: true,
+        spaceBetween: 30,
+        loop: true
+    });
+    //时间轴插件
     $('.VivaTimeline').vivaTimeline({
-        carousel: true,
-        carouselTime: 3000
-      });
+      carousel: true,
+      carouselTime: 3000
+    });
     //判断浏览器
     mozilla = /firefox/.test(navigator.userAgent.toLowerCase());
     webkit = /webkit/.test(navigator.userAgent.toLowerCase());
@@ -435,47 +486,40 @@
     msie = /msie/.test(navigator.userAgent.toLowerCase());
     var li = $('.navbar-nav:first-child li');
     body = webkit?'body':'html';
-    var marks = $('#synopsis > div').has('.marks');
-    console.log(marks[1]);
-    var offset_top = [];
-    for (var i = 0; i < marks.length; i ++) {
-      offset_top.push($(marks[i]).offset().top);
+    var marks = $('#synopsis > div').has('.marks'); //获取添加了标记的模块
+    var offset_top = []; 
+    for (var i = 0; i < marks.length; i ++) { //将模块上部的偏移量存入数组
+      offset_top.push($(marks[i]).offset().top - 50);
     }
-    console.log(offset_top);
-    // var g_top = $('#group').offset(function(index, currentCoordinates) {
-    //   return someObject;
-    // })
-    // console.log(jQuery.prototype);
-    li.click(function(){
+    li.click(function(){ // 导航事件
       $(this).addClass('active').siblings().removeClass('active')
       var href = $(this).children('a').attr('href');
-      var destination = $(href).offset().top - 50;
+      var destination = $(href).offset().top ;
       $(body).animate({scrollTop: destination}, 1000);
     });
-    //离开顶部时显示返回顶部按钮
+    
     $(window).scroll(function(){
-      for (var i = 0;i < offset_top.length; i ++){
-        if($(body).scrollTop() > offset_top[i] && $(body).scrollTop() < offset_top[i+1]){
-          $(li[i]).addClass('active').siblings().removeClass('active')
+      //滚动事件判断滚动条位置
+      if($(body).scrollTop() > $('.addus').offset().top && $(body).scrollTop() < $('#login').offset().top){
+        for (var i = 0;i < offset_top.length; i ++){
+          if($(body).scrollTop() > offset_top[i]){
+            $(li[i]).addClass('active').siblings().removeClass('active')
+          }
         }
-      }
-      // if($(body).scrollTop() < offset_top[0]){
-      //   // console.log('d')
-      //   $(li[i]).removeClass('active')
-      // }
-      if($(body).scrollTop() > 0) {
-        $('.top').show();
       } else {
-        $('.top').hide();
+        $(li).removeClass('active')
       }
+      //离开顶部时显示返回顶部按钮
+      $(body).scrollTop() > 0?$('.top').show():$('.top').hide();
     });
+    //图标和文字切换
     $('.letter').hover(function() {
       $(this).find('i').hide();
       $(this).find('span').show();
     }, function() {
       $(this).find('i').show();
       $(this).find('span').hide();
-    });;
+    });
     //二维码
     $('.qrcode_show').hover(function() {
       $('.qrcode').show();
@@ -502,16 +546,22 @@
       $('#login').hide();
       $('#register').show();
     });
-    /*$('.weixin').hover(function(){
-      $('.weixinImg').css('display','block');
-    },function(){
-      $('.weixinImg').css('display','none');
+    //大屏幕版组别
+    var groups = $('.group_computer > li');
+    $(groups).hover(function(e) {
+      e.stopPropagation();
+      $(this).addClass('group_active').siblings().removeClass('group_active');
+      $(this).siblings('li').css({
+        width: '30%',
+        'z-index': 0
+      });
+      $(this).siblings('li').find('.hide_content').hide();
+      $(this).find('.hide_content').fadeIn();
+      $(this).find('.show_content').hide();
+      $(this).siblings('li').find('.show_content').fadeIn();
+    }, function() {
+      // $(this).find('.hide_content').hide();
     });
-     $('.weibo').hover(function(){
-      $('.weiboImg').css('display','block');
-    },function(){
-      $('.weiboImg').css('display','none');
-    });*/
   });
 </script>
 </body>
