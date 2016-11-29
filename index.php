@@ -53,19 +53,20 @@
           <ul class="nav navbar-nav">
             <li><a href="#synopsis">简介</a></li>
             <li><a href="#group">组别</a></li>
-            <li><a href="#achievement">成就</a></li>
+            <li><a href="#achievement">历程</a></li>
+            <li><a href="#member">成员</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#login" class="login_href">登录</a></li>
           </ul>
-          <form class="navbar-form navbar-right" role="search">
+          <!-- <form class="navbar-form navbar-right" role="search">
             <div class="form-group">
               <input type="text" class="form-control" placeholder="搜索" style="">
             </div>
               <button type="submit" class="btn btn-default" style="border-top-right-radius: 6px;border-bottom-right-radius: 6px;">
                 <span class="glyphicon glyphicon-search"></span>
               </button>
-          </form>
+          </form> -->
            <!--  <form class="navbar-form navbar-left" role="search">
               <div class="form-group">
                 <input type="text" class="form-control" placeholder="Search">
@@ -84,7 +85,7 @@
             <ul>             
              <!-- right -->
               <li data-transition="random">
-                <img src="images/3.jpg" class="attachment-slider"  />            
+                <img src="images/3.jpg" class="attachment-slider"/>            
                 <div class="caption navy-bg sft" data-x="600" data-y="80" data-speed="300" data-start="1500" data-easing="easeOutExpo">
                   Trust and supported by many
                 </div>
@@ -136,6 +137,7 @@
         <div class="inner light"> </div>
         <!-- 简介 -->
         <div class="col-lg-10 col-lg-offset-1 col-xs-12" style="background: rgba(0, 0, 0, .5);border-radius: 10px;color: #fff;line-height: 35px;margin-bottom: 40px;padding-bottom: 40px">
+          <span class="marks"></span>
           <h2 class="text-center" style="color: #fff;margin-top: 30px">简介</h2>
           <div class="col-lg-5 col-xs-12 col-lg-offset-1"><!-- one-third -->
             安徽理工大学知通团队成立于2005年10月。团队创始人张亮亮为安徽理工大学2003届信息管理与信息系统毕业生。21世纪初，刚刚经历了“寒冬”的互联网开始复苏。但此时国内互联网发展刚起步，学习IT技术的资源少且成本高。为了帮助更多的同学了解和学习到先进的IT技术，张亮亮成立知通团队。团队成立初期，他在安徽理工大学本部东侧研究生楼租房进行教学研究活动，并自费购买台式计算机、桌椅等办公用品。初期招收学员较少，随后影响力扩大，团队扩招。
@@ -146,57 +148,33 @@
         </div>
         <div class="inner light"></div>
         <!-- 组别  -->
-        <div id="group" class="col-lg-12 col-xs-12" style="background: #f0f0f0;height: 700px;background-size: contain;"><!-- background: url('images/g3.jpg'); -->
-         <!--  <div class="col-lg-4">
-            <h2 class="text-center" style="margin-top: 30px">简介</h2>
-            <div>
-            dsfvdf导：查询量酬考核结果（本部门）产品经理：查询导：查询量酬考核结果（本部门） 产品经理：查询导：查询量酬考核结果（本部门）产品经理：查询导：查询量酬考核结果（本部门） 产品经理：查询导：查询量酬考核结果（本部门）产品经理：查询导：查询量酬考核结果（本部门）产品经理：查询
-            </div>
-          </div> -->
-          
-        </div>
-        <!-- 成就 -->
-        <div id="achievement" class="col-lg-12 col-xs-12" style="background: #303030;color: #fff;padding-bottom: 40px;"><!-- #494A5F -->
-          <!-- <div class="inner light"> </div>
-          <div class="col-lg-12">
-            <div class="col-lg-4">
-              <div style="height: 200px;width: 200px;text-align: center;margin: auto;">
-                2000年
-                <div style="height: 200px;width: 200px;border: 3px solid #1ABC9C;border-radius: 200px;padding: 30px;">果（本部门）产品经理：查询导：查询量酬考核结果（本部门） 产品经理：查询导：
-                </div>  
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div style="height: 200px;width: 200px;text-align: center;margin: auto;">
-                2000年
-                <div style="height: 200px;width: 200px;border: 3px solid #1ABC9C;border-radius: 200px;padding: 30px;">果（本部门）产品经理：查询导：查询量酬考核结果（本部门） 产品经理：查询导：
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div style="height: 200px;width: 200px;text-align: center;margin: auto;">
-                2000年
-                <div style="height: 200px;width: 200px;border: 3px solid #1ABC9C;border-radius: 200px;padding: 30px;">果（本部门）产品经理：查询导：查询量酬考核结果（本部门） 产品经理：查询导：
-                </div>
+        <div id="group" class="col-lg-12 col-xs-12" style="background: #f0f0f0;height: 700px;background: url('images/bg5.jpg') repeat;">
+          <span class="marks"></span>        
+          <div class="col-lg-4">
+            <div class="col-lg-10">
+              <h2 class="text-center" style="margin-top: 30px">前端组</h2>
+              <div>
+              dsfvdf导：查询量酬考核结果（本部门）产品经理：查询导：查询量酬考核结果（本部门） 产品经理：查询导：查询量酬考核结果（本部门）产品经理：查询导：查询量酬考核结果（本部门） 产品经理：查询导：查询量酬考核结果（本部门）产品经理：查询导：查询量酬考核结果（本部门）产品经理：查询
               </div>
             </div>
           </div>
-          <div class="col-lg-10 col-lg-offset-1" style="top: -30px">
-            <div class="col-lg-6">
-              <div style="height: 200px;width: 200px;text-align: center;margin: auto;">
-                2000年
-                <div style="height: 200px;width: 200px;border: 3px solid #1ABC9C;border-radius: 200px;padding: 30px;">果（本部门）产品经理：查询导：查询量酬考核结果（本部门） 产品经理：查询导：
-                </div>
-              </div>
+          <div class="col-lg-4">
+            <h2 class="text-center" style="margin-top: 30px">PHP组</h2>
+            <div>
+            dsfvdf导：查询量酬考核结果（本部门）产品经理：查询导：查询量酬考核结果（本部门） 产品经理：查询导：查询量酬考核结果（本部门）产品经理：查询导：查询量酬考核结果（本部门） 产品经理：查询导：查询量酬考核结果（本部门）产品经理：查询导：查询量酬考核结果（本部门）产品经理：查询
             </div>
-            <div class="col-lg-6">
-              <div style="height: 200px;width: 200px;text-align: center;margin: auto;">
-                2000年
-                <div style="height: 200px;width: 200px;border: 3px solid #1ABC9C;border-radius: 200px;padding: 30px;">果（本部门）产品经理：查询导：查询量酬考核结果（本部门） 产品经理：查询导：
-                </div>
-              </div>
+          </div>
+          <div class="col-lg-4">
+            <h2 class="text-center" style="margin-top: 30px">Java组</h2>
+            <div>
+            dsfvdf导：查询量酬考核结果（本部门）产品经理：查询导：查询量酬考核结果（本部门） 产品经理：查询导：查询量酬考核结果（本部门）产品经理：查询导：查询量酬考核结果（本部门） 产品经理：查询导：查询量酬考核结果（本部门）产品经理：查询导：查询量酬考核结果（本部门）产品经理：查询
             </div>
-          </div> -->
+          </div>
+        </div>
+        <div class="col-lg-12" style="background: url('images/bg8.jpg');height: 10px"></div>
+        <!-- 历程 -->
+        <div id="achievement" class="col-lg-12 col-xs-12" style="background: #303030;color: #fff;padding-bottom: 40px;background: url('images/bg4.png');"><!-- #494A5F -->
+          <span class="marks"></span>        
           <div class="VivaTimeline col-lg-10 col-lg-offset-1 col-xs-12" style="padding: 0">
             <dl>
                 <dt>2005年</dt>                                    
@@ -219,7 +197,7 @@
                                     <img class="events-object img-responsive img-rounded" src="images/1.jpg"/>
                                 </div>
                                 <div class="events-desc">
-                                  Morbi at nisi vitae mauris pretium egestas. Morbi placerat risus ligula, nec placerat urna porta vel. Nullam sollicitudin orci quis odio eleifend, ut facilisis orci lobortis. Vivamus sed lobortis odio. Nam volutpat, leo a ullamcorper luctus, sapien libero auctor est, sed semper massa turpis sed quam. Mauris posuere, libero in ultricies dignissim, lacus purus egestas urna, nec semper lorem tellus non eros. Nam at bibendum libero. Curabitur a ante et orci cursus tincidunt. Vivamus dictum, libero et rhoncus congue, nulla erat mollis dui, vitae cursus dui justo quis velit. In a tellus arcu. Nam at lobortis nisl. Donec consequat placerat eros, quis elementum mauris sodales a. Maecenas id feugiat velit. Phasellus dictum eleifend varius. Cras nec orci turpis. Aenean ut turpis nibh.
+                                  Morbi at nisi vitae mauris pretium egestas. Morbi placerat risus ligula, nec placerat urna
                                 </div>
                             </div>  
                             <div class="row">
@@ -227,7 +205,7 @@
                                     <img class="events-object img-responsive img-rounded" src="images/1.jpg"/>
                                 </div>
                                 <div class="events-desc">
-                                  Cras condimentum, metus ut vehicula euismod, odio massa pulvinar neque, id gravida neque est et sem. Proin consequat id nibh quis molestie. Quisque vehicula purus id purus elementum facilisis. Phasellus sodales nibh quis neque rhoncus aliquet. Nunc eget ipsum efficitur, pretium arcu et, gravida purus. Phasellus tempor lacus ac enim pulvinar elementum. Integer aliquet justo lacinia nunc tempus vulputate.
+                                  Cras condimentum, metus ut vehicula euismod, odio massa pulvinar neque, idteger aliquet justo lacinia nunc tempus vulputate.
                                 </div>
                             </div> -->                                    
                         </div>   
@@ -273,8 +251,13 @@
             </dl>
           </div>
         </div>
+        <!-- 成员 -->
+        <div class="col-lg-12" id="member">
+          <span class="marks"></span>          
+        </div>
         <!-- 登录  -->
         <div id="login" class="col-lg-12 col-xs-12" style="background: rgba(0,0,0, .5);">
+          <span class="marks"></span>        
           <div class="inner light"> </div>
           <h3 class="text-center" style="color: #fff;font-weight: normal;"><i class="glyphicon glyphicon-leaf" style="color: #69AA46; margin-right: 10px; top: 3px;"></i>登录网站</h3>
           <div class="login-form col-lg-4 col-lg-offset-4 col-xs-12" style="box-shadow: 0 0 3px #333;margin-bottom: 50px;margin-top: 10px;">
@@ -343,7 +326,8 @@
       </div>
     </div>
     <!-- 底部 -->
-    <div class="footer col-lg-12 col-sm-12 col-xs-12" style="background: #24272C;">
+    <div class="col-lg-12 col-xs-12" style="background: url('images/f1.png');height: 14px"></div>
+    <div class="footer col-lg-12 col-sm-12 col-xs-12" style="background: #fff url('images/f2.png');border-top: none;">
       <div class="col-sm-4 col-xs-12 foot">
         <div class="foot_hed">知通团队</div>
         <div class="foot_cont">
@@ -451,18 +435,34 @@
     msie = /msie/.test(navigator.userAgent.toLowerCase());
     var li = $('.navbar-nav:first-child li');
     body = webkit?'body':'html';
-
+    var marks = $('#synopsis > div').has('.marks');
+    console.log(marks[1]);
+    var offset_top = [];
+    for (var i = 0; i < marks.length; i ++) {
+      offset_top.push($(marks[i]).offset().top);
+    }
+    console.log(offset_top);
+    // var g_top = $('#group').offset(function(index, currentCoordinates) {
+    //   return someObject;
+    // })
     // console.log(jQuery.prototype);
     li.click(function(){
       $(this).addClass('active').siblings().removeClass('active')
       var href = $(this).children('a').attr('href');
       var destination = $(href).offset().top - 50;
-      // if (webkit) {body='body'}
-      $(body).animate({ scrollTop: destination}, 1000);
+      $(body).animate({scrollTop: destination}, 1000);
     });
     //离开顶部时显示返回顶部按钮
     $(window).scroll(function(){
-      // $('.rt_operation').show()
+      for (var i = 0;i < offset_top.length; i ++){
+        if($(body).scrollTop() > offset_top[i] && $(body).scrollTop() < offset_top[i+1]){
+          $(li[i]).addClass('active').siblings().removeClass('active')
+        }
+      }
+      // if($(body).scrollTop() < offset_top[0]){
+      //   // console.log('d')
+      //   $(li[i]).removeClass('active')
+      // }
       if($(body).scrollTop() > 0) {
         $('.top').show();
       } else {

@@ -2663,7 +2663,7 @@ option {
 }
 
 .footer{
-    background: #24272C !important;
+    /*background: #24272C !important;*/
     border-top: solid #ccc 1px;
     text-align: center;
     padding:30px 20px;
@@ -2718,4 +2718,8 @@ option {
 }
 .about-information{
     margin-top: 25px;
+}
+#group > div>div {
+    background: #fff;
+    border: 1px solid #ccc;
 }
