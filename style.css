@@ -2743,6 +2743,7 @@ option {
     height: 600px !important;
     border: 1px solid #1ABC9C !important;
     box-shadow: 0 0 15px #1ABC9C !important;
+    /*box-shadow: 0 0 15px #666 !important;*/
     width: 40% !important;
     z-index: 3 !important;
 }
@@ -2761,7 +2762,8 @@ option {
     line-height: 230px;
 }
 .group_h {
-    background: #1abc9c none repeat scroll 0 0;
+    background: #1abc9c;
+    /*background: #303030;*/
     color: #fff;
     font-size: 34px;
     height: 230px;
@@ -2810,4 +2812,27 @@ option {
     align-items: center;
     padding-bottom: 40px;
     padding-top: 20px;
+}
+/*.swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+    background-image: url();
+}*/
+.open_timeline, .close_timeline {
+    background: #1ABC9C !important;
+    cursor: pointer;
+    transition: .2s;
+}
+.open_timeline:hover, .close_timeline:hover {
+    background: #18C9A5 !important;
+}
+.member_name {
+    color: #1ABC9C;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.s-container p span:first-child {
+    color: #1ABC9C;
+}
+.s-container p span:last-child {
+    border-bottom: 1px solid #303030;
+    border-style: dashed;
 }

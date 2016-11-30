@@ -149,10 +149,12 @@
         <div class="inner light"></div>
         <!-- 组别  -->
         <div id="group" class="col-lg-12 col-xs-12" style="background: #f0f0f0;background: url('images/bg5.jpg') repeat;">
-          <h2 class="text-center" style="color: #303030;margin-top: 30px">组别</h2>
-          <div class="inner light visible-lg-block visible-md-block"></div>
+          <div class="col-lg-12" style="background: url('images/br.png');height: 5px;"></div>
+          <p class="text-center" style="color: #303030;margin-top: 30px;font-size: 30px">组别</p>
+          <div class="inner light visible-lg-block"></div>
+           <!-- visible-md-block -->
           <span class="marks"></span>
-          <ul class="group_computer visible-lg-block visible-md-block">   
+          <ul class="group_computer visible-lg-block"> <!--  visible-md-block -->  
             <li class="group_active">
               <div class="show_content" style="display: none;">
                 <p class="text-center group_s">前端组</p>
@@ -189,7 +191,8 @@
               </div>
             </li>
           </ul>
-          <div class="swiper-container hidden-lg hidden-md" style="margin-bottom: 10px;">
+          <div class="swiper-container hidden-lg" style="margin-bottom: 10px;">
+           <!-- hidden-md -->
             <div class="swiper-wrapper">
                   <div class="swiper-slide">
                     <div>
@@ -228,7 +231,7 @@
               <div class="swiper-pagination"></div>
           </div>
         </div> 
-        <div class="col-lg-12 visible-lg-block" style="background: url('images/bg8.jpg');height: 10px"></div>
+        <!-- <div class="col-lg-12 visible-lg-block" style="background: url('images/bg8.jpg');height: 10px"></div> -->
         <!-- 历程 -->
         <div id="achievement" class="col-lg-12 col-xs-12" style="background: #303030;color: #fff;padding-bottom: 40px;background: url('images/bg9.jpg');"><!-- #494A5F -->
           <span class="marks"></span>        
@@ -239,7 +242,9 @@
                     <div class="circ"></div>
                     <div class="time">10月</div>
                     <div class="events">
-                        <div class="events-header">成立</div>
+                        <div class="events-header">成立
+                        <i class="glyphicon glyphicon-download"></i>
+                        </div>
                         <div class="events-body">
                             <div class="row">
                               <div class="col-md-6 pull-left">
@@ -304,62 +309,83 @@
                             </div>
                         </div>                                
                     </div>
-                </dd>                                    
+                </dd>
+                <dt class="open_timeline" style="">展开</dt>
+                <div class="hidden_timeline" style="display: none;">
+                  <dt>2016</dt>
+                  <dd class="pos-right clearfix">
+                      <div class="circ"></div>
+                      <div class="time">Jan 21</div>
+                      <div class="events">
+                          <div class="events-header">xx </div>
+                          <div class="events-body">
+                              <div class="row">
+                                <div class="col-md-6 pull-left">
+                                      <img class="events-object img-responsive img-rounded" src="images/1.jpg"/>
+                                  </div>
+                                  <div class="events-desc">
+                                    xxx
+                                  </div>
+                              </div>
+                          </div>       
+                      </div>
+                  </dd>
+                  <dt class="close_timeline">收起</dt>
+                </div>
             </dl>
           </div>
         </div>
         <!-- 成员 -->
-        <div class="col-lg-12" style="background: url('images/br.png');height: 5px;"></div>
         <div class="col-lg-12 col-xs-12" id="member" style="background: url('images/bg1.png');">
           <span class="marks"></span>
           <div class="s-container">
               <div class="swiper-wrapper">
                   <div class="swiper-slide">
                     <div>
-                      <div class="col-xs-12">
+                      <div class="col-xs-12 member_name">
                         <i class="glyphicon glyphicon-user"></i>
                         卞飞
                       </div>
                       <div class="col-xs-12">
                         <p>
-                        专业：自动化
+                          <span>专业：</span><span>自动化
                         </p>
                         <p>
-                          加入团队时间：2007
+                          <span>加入团队时间：</span><span>2007</span>
                         </p>
                         <p>
-                          学习方向：Java
+                          <span>学习方向：</span><span>Java</span>
                         </p>
                         <p>
-                          工作单位：创业
+                         <span>工作单位：</span><span>创业</span>
                         </p>
                         <p>
-                          个人经历：卞飞以前在去哪儿网工作，担任无线技术总监一职，16年1月去哪儿网被携程收购之后自己跳出来创业，现在创业的公司名为就爱广场舞。
+                          <span>个人经历：</span><span>曾任去哪儿网无线技术总监一职，目前自主创业，公司名为就爱广场舞</span>
                         </p>
                       </div>
                     </div>
                   </div>
                   <div class="swiper-slide">
                     <div>
-                      <div class="col-xs-12">
+                      <div class="col-xs-12 member_name">
                         <i class="glyphicon glyphicon-user"></i>
                         石建
                       </div>
                       <div class="col-xs-12">
                         <p>
-                        专业：<span>信息安全</span>
+                        <span>专业：</span><span>信息安全</span>
                         </p>
                         <p>
-                          加入团队时间：<span>2008</span>
+                          <span>加入团队时间：</span><span>2008</span>
                         </p>
                         <p>
-                          学习方向：<span>Java</span>
+                          <span>学习方向：</span><span>Java</span>
                         </p>
                         <p>
-                          工作单位：<span>阿里巴巴</span>
+                          <span>工作单位：</span><span>阿里巴巴</span>
                         </p>
                         <p>
-                          个人经历：<span>石建现在主要是做淘宝的Java开发工程师</span>
+                          <span>个人经历：</span><span>淘宝Java开发工程师</span>
                         </p>
                       </div>
                     </div>
@@ -367,11 +393,12 @@
                   <div class="swiper-slide">Slide 3</div>
                   <div class="swiper-slide">Slide 4</div>
                   <div class="swiper-slide">Slide 5</div>
-                  <div class="swiper-slide">Slide 6</div>
+                  <div class="swiper-slide">下一个就是你</div>
               </div>
               <div class="swiper-button-next"></div>
               <div class="swiper-button-prev"></div>
           </div>
+          <!-- <div class="col-lg-12" style="background: url('images/br.png');height: 5px;"></div> -->
           <!-- </iframe> -->
         </div>
         <!-- 登录  -->
@@ -469,6 +496,17 @@
               <li><a href="">团队历史</a></li>
               <li><a href="">成员介绍</a></li>
             </ul>
+            <div class="col-sm-12 col-xs-12" style="font-size: 13px;">
+              <div>
+                <!-- <img src="images/phone.png" style="display: inline"> -->
+                <span style="background: url('images/phone.png') no-repeat;padding-left: 38px">11122223333</span>
+              </div>
+              <div>
+                <!-- <span>QQ群：</span> -->
+                <!-- <img src="images/qq.png" style="display: inline"> -->
+                <span style="background: url('images/qq.png') no-repeat;padding-left: 51px">174701198</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -488,7 +526,6 @@
         </div>
       </div>
     </div>
-
 
     <ul class="rt_operation hidden-xs">
       <li class="top" style="display: none;border-bottom: 1px solid #ccc">
@@ -553,7 +590,7 @@
       parallax: true,
       speed: 600
     });
-    window_width();
+    window_width(); // 成员介绍
     function window_width() {
       number = $(window).width() < 768?1:2;
       var swiper1 = new Swiper('.s-container', {
@@ -568,8 +605,16 @@
     $(window).resize(function() {
       window_width();
     });
-    // swiper1.originalParams.slidesPerView = 3;
-    // console.log();
+    // 时间轴
+    $('.open_timeline').click(function() {
+      $(this).slideUp(1000);
+      $('.hidden_timeline').slideDown(1000);
+    });
+    $('.close_timeline').click(function() {
+      $('.hidden_timeline').fadeOut(100);
+      $('.open_timeline').fadeIn(1000);
+    });
+    // $('.open_timeline').hover(function);
     //时间轴插件
     $('.VivaTimeline').vivaTimeline({
       carousel: true,
@@ -596,12 +641,6 @@
     
     // $('.rt_operation').hide();
     $(window).scroll(function(){
-      // $('.rt_operation').fadeIn(100);
-      // $('.rt_operation').hover(function() {
-      //   $(this).show();
-      // }, function() {
-      //   $(this).fadeOut();
-      // });
       //滚动事件判断滚动条位置
       if($(body).scrollTop() > $('.addus').offset().top && $(body).scrollTop() < $('#login').offset().top){
         for (var i = 0;i < offset_top.length; i ++){
