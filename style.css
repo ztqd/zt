@@ -125,12 +125,12 @@ body {
 input,
 textarea,
 select {
-    font-family: 'Source Sans Pro', Arial, sans-serif;
+    font-family: 'Microsoft Yahei','Source Sans Pro', Arial, sans-serif;
     font-size: 14px;
     width: 100%;
 }
 p {
-    padding-bottom: 20px
+    padding-bottom: 10px
 }
 h1,
 h2,
@@ -2774,6 +2774,22 @@ option {
     margin-left: auto;
     margin-right: auto;
 }
+.s-container {
+    width: 100%;
+    height: 300px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+.s-container .swiper-slide {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.s-container .swiper-slide > div {
+    text-align: left;
+    padding: 10px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
 .swiper-slide {
     text-align: center;
     font-size: 14px;
@@ -2792,6 +2808,6 @@ option {
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     padding-top: 20px;
 }

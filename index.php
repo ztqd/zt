@@ -35,7 +35,6 @@
 
 </head>
 <body class="full-layout">
-  <a name="top"></a>
   <div class="body-wrapper"> 
     <!-- 导航 -->
     <nav class="navbar navbar-inverse navbar-embossed navbar-fixed-top" role="navigation" style="margin-bottom: 0;border-radius: 0">
@@ -150,67 +149,84 @@
         <div class="inner light"></div>
         <!-- 组别  -->
         <div id="group" class="col-lg-12 col-xs-12" style="background: #f0f0f0;background: url('images/bg5.jpg') repeat;">
+          <h2 class="text-center" style="color: #303030;margin-top: 30px">组别</h2>
           <div class="inner light visible-lg-block visible-md-block"></div>
           <span class="marks"></span>
-            <ul class="group_computer visible-lg-block visible-md-block">   
-              <li class="group_active">
-                <div class="show_content" style="display: none;">
-                  <p class="text-center group_s">前端组</p>
-                  <div>
-                  </div>
+          <ul class="group_computer visible-lg-block visible-md-block">   
+            <li class="group_active">
+              <div class="show_content" style="display: none;">
+                <p class="text-center group_s">前端组</p>
+                <div>
                 </div>
-                <div class="hide_content">
-                  <p class="text-center group_h">前端组</p>
-                  <div  style="min-width: 360px;max-width:400px;margin: auto;margin-top: 10px">
-                    前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组
-                  </div>
+              </div>
+              <div class="hide_content">
+                <p class="text-center group_h">前端组</p>
+                <div  style="min-width: 360px;max-width:400px;margin: auto;margin-top: 10px">
+                  前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组
                 </div>
-              </li>
-              <li class="">
-                <div class="show_content" style="">
-                <p class="text-center group_s">PHP组</p>
-                  <div>
-                  </div>
+              </div>
+            </li>
+            <li class="">
+              <div class="show_content" style="">
+              <p class="text-center group_s">PHP组</p>
+                <div>
                 </div>
-                <div class="hide_content" style="display: none;">
-                  <p class="text-center group_h">PHP组</p>
-                  PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组
+              </div>
+              <div class="hide_content" style="display: none;">
+                <p class="text-center group_h">PHP组</p>
+                PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组
+              </div>
+            </li>
+            <li class="">
+              <div class="show_content">
+                <p class="text-center group_s">Java组</p>
+                <div>
                 </div>
-              </li>
-              <li class="">
-                <div class="show_content">
-                  <p class="text-center group_s">Java组</p>
-                  <div>
-                  </div>
-                </div>
-                <div class="hide_content" style="display: none;">
-                  <p class="text-center group_h">Java组</p>
-                    Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组
-                </div>
-              </li>
-            </ul>
-            <div class="swiper-container hidden-lg hidden-md">
-              <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                      <div>
-                        <p>前端组</p>
-                        <div class="col-lg-6 col-sm-6">
-                          前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组
-                        </div>
-                        <div class="col-lg-6 col-sm-6">
-                          前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组
-                        </div>
+              </div>
+              <div class="hide_content" style="display: none;">
+                <p class="text-center group_h">Java组</p>
+                  Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组
+              </div>
+            </li>
+          </ul>
+          <div class="swiper-container hidden-lg hidden-md" style="margin-bottom: 10px;">
+            <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div>
+                      <p style="font-size: 20px;">前端组</p>
+                      <div class="col-lg-6 col-sm-6">
+                        <img src="images/1.jpg" alt="">
+                      </div>
+                      <div class="col-lg-6 col-sm-6" style="text-align: left;" data-swiper-parallax="-200">
+                        前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组
                       </div>
                     </div>
-                    <div class="swiper-slide">
-                      <p>PHP</p>
+                  </div>
+                  <div class="swiper-slide">
+                    <div>
+                      <p style="font-size: 20px;">PHP组</p>
+                      <div class="col-lg-6 col-sm-6">
+                        <img src="images/2.jpg" alt="">
+                      </div>
+                      <div class="col-lg-6 col-sm-6" style="text-align: left;" data-swiper-parallax="-200">
+                        PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组PHP组
+                      </div>
                     </div>
-                    <div class="swiper-slide">
-                      <p>Java</p>
+                  </div>
+                  <div class="swiper-slide">
+                    <div>
+                      <p style="font-size: 20px;">Java组</p>
+                      <div class="col-lg-6 col-sm-6">
+                        <img src="images/3.jpg" alt="">
+                      </div>
+                      <div class="col-lg-6 col-sm-6" style="text-align: left;" data-swiper-parallax="-200">
+                        Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组
+                      </div>
                     </div>
-                </div>
-                <div class="swiper-pagination"></div>
-            </div>
+                  </div>
+              </div>
+              <div class="swiper-pagination"></div>
+          </div>
         </div> 
         <div class="col-lg-12 visible-lg-block" style="background: url('images/bg8.jpg');height: 10px"></div>
         <!-- 历程 -->
@@ -293,8 +309,70 @@
           </div>
         </div>
         <!-- 成员 -->
-        <div class="col-lg-12" id="member" style="height: 200px;">
-          <span class="marks"></span>          
+        <div class="col-lg-12" style="background: url('images/br.png');height: 5px;"></div>
+        <div class="col-lg-12 col-xs-12" id="member" style="background: url('images/bg1.png');">
+          <span class="marks"></span>
+          <div class="s-container">
+              <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div>
+                      <div class="col-xs-12">
+                        <i class="glyphicon glyphicon-user"></i>
+                        卞飞
+                      </div>
+                      <div class="col-xs-12">
+                        <p>
+                        专业：自动化
+                        </p>
+                        <p>
+                          加入团队时间：2007
+                        </p>
+                        <p>
+                          学习方向：Java
+                        </p>
+                        <p>
+                          工作单位：创业
+                        </p>
+                        <p>
+                          个人经历：卞飞以前在去哪儿网工作，担任无线技术总监一职，16年1月去哪儿网被携程收购之后自己跳出来创业，现在创业的公司名为就爱广场舞。
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div>
+                      <div class="col-xs-12">
+                        <i class="glyphicon glyphicon-user"></i>
+                        石建
+                      </div>
+                      <div class="col-xs-12">
+                        <p>
+                        专业：<span>信息安全</span>
+                        </p>
+                        <p>
+                          加入团队时间：<span>2008</span>
+                        </p>
+                        <p>
+                          学习方向：<span>Java</span>
+                        </p>
+                        <p>
+                          工作单位：<span>阿里巴巴</span>
+                        </p>
+                        <p>
+                          个人经历：<span>石建现在主要是做淘宝的Java开发工程师</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">Slide 3</div>
+                  <div class="swiper-slide">Slide 4</div>
+                  <div class="swiper-slide">Slide 5</div>
+                  <div class="swiper-slide">Slide 6</div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+          </div>
+          <!-- </iframe> -->
         </div>
         <!-- 登录  -->
         <div id="login" class="col-lg-12 col-xs-12" style="background: rgba(0,0,0, .5);">
@@ -412,9 +490,9 @@
     </div>
 
 
-    <ul class="rt_operation">
+    <ul class="rt_operation hidden-xs">
       <li class="top" style="display: none;border-bottom: 1px solid #ccc">
-        <a href="#top" title="返回顶部">
+        <a title="返回顶部">
           <i class="glyphicon glyphicon-chevron-up"></i>
         </a>
       </li>
@@ -465,15 +543,33 @@
 <!-- <div style="display:none"><script src='http//v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div> -->
 <script type="text/javascript">
   $(function(){
+    //swiper插件
     var swiper = new Swiper('.swiper-container', {
-        pagination: '.swiper-pagination',
+      pagination: '.swiper-pagination',
+      slidesPerView: 1,
+      paginationClickable: true,
+      spaceBetween: 30,
+      loop: true,
+      parallax: true,
+      speed: 600
+    });
+    window_width();
+    function window_width() {
+      number = $(window).width() < 768?1:2;
+      var swiper1 = new Swiper('.s-container', {
         nextButton: '.swiper-button-next',
         prevButton: '.swiper-button-prev',
-        slidesPerView: 1,
+        slidesPerView: number,
         paginationClickable: true,
         spaceBetween: 30,
-        loop: true
+        freeMode: true,
+      });
+    }
+    $(window).resize(function() {
+      window_width();
     });
+    // swiper1.originalParams.slidesPerView = 3;
+    // console.log();
     //时间轴插件
     $('.VivaTimeline').vivaTimeline({
       carousel: true,
@@ -498,7 +594,14 @@
       $(body).animate({scrollTop: destination}, 1000);
     });
     
+    // $('.rt_operation').hide();
     $(window).scroll(function(){
+      // $('.rt_operation').fadeIn(100);
+      // $('.rt_operation').hover(function() {
+      //   $(this).show();
+      // }, function() {
+      //   $(this).fadeOut();
+      // });
       //滚动事件判断滚动条位置
       if($(body).scrollTop() > $('.addus').offset().top && $(body).scrollTop() < $('#login').offset().top){
         for (var i = 0;i < offset_top.length; i ++){
@@ -509,6 +612,9 @@
       } else {
         $(li).removeClass('active')
       }
+      $('.top').click(function(){
+        $(body).scrollTop(0);
+      });
       //离开顶部时显示返回顶部按钮
       $(body).scrollTop() > 0?$('.top').show():$('.top').hide();
     });
@@ -548,8 +654,7 @@
     });
     //大屏幕版组别
     var groups = $('.group_computer > li');
-    $(groups).hover(function(e) {
-      e.stopPropagation();
+    $(groups).hover(function() {
       $(this).addClass('group_active').siblings().removeClass('group_active');
       $(this).siblings('li').css({
         width: '30%',
@@ -559,8 +664,6 @@
       $(this).find('.hide_content').fadeIn();
       $(this).find('.show_content').hide();
       $(this).siblings('li').find('.show_content').fadeIn();
-    }, function() {
-      // $(this).find('.hide_content').hide();
     });
   });
 </script>
