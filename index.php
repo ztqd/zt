@@ -85,7 +85,7 @@
             <ul>             
              <!-- right -->
               <li data-transition="random">
-                <img src="images/3.jpg" class="attachment-slider"/>            
+                <img src="images/5.jpg" class="attachment-slider"/>            
                 <div class="caption navy-bg sft" data-x="600" data-y="80" data-speed="300" data-start="1500" data-easing="easeOutExpo">
                   Trust and supported by many
                 </div>
@@ -103,7 +103,7 @@
                          
               <!-- Left -->
               <li data-transition="random">
-                <img src="images/1.jpg" class="attachment-slider"  />            
+                <img src="images/4.jpg" class="attachment-slider"  />            
                 <div class="caption sft navy-bg" data-x="70" data-y="70" data-speed="300" data-start="1500" data-easing="easeOutExpo">
                   We take care of your problems
                 </div>
@@ -116,7 +116,7 @@
                </div>
              </li>
               <li data-transition="random">
-                <img src="images/2.jpg" class="attachment-slider"  />            
+                <img src="images/login.jpg" class="attachment-slider"  />            
                 <div class="caption sft navy-bg" data-x="70" data-y="70" data-speed="300" data-start="1500" data-easing="easeOutExpo">
                   期待你的加入
                 </div>   
@@ -148,13 +148,13 @@
         </div>
         <div class="inner light"></div>
         <!-- 组别  -->
-        <div id="group" class="col-lg-12 col-xs-12" style="background: #f0f0f0;background: url('images/bg5.jpg') repeat;">
+        <div id="group" class="col-lg-12 col-xs-12" style="background: #f0f0f0;background: url('images/bg5.jpg') repeat;padding-bottom: 20px;">
           <div class="col-lg-12" style="background: url('images/br.png');height: 5px;"></div>
-          <p class="text-center" style="color: #303030;margin-top: 30px;font-size: 30px">组别</p>
-          <div class="inner light visible-lg-block"></div>
-           <!-- visible-md-block -->
+          <!-- <p class="text-center" style="color: #303030;margin-top: 30px;font-size: 30px">组别</p> -->
+          <div class="inner light"></div>
+           <!-- visible-md-block --> <!--  visible-md-block -->
           <span class="marks"></span>
-          <ul class="group_computer visible-lg-block"> <!--  visible-md-block -->  
+          <!-- <ul class="group_computer visible-lg-block">  
             <li class="group_active">
               <div class="show_content" style="display: none;">
                 <p class="text-center group_s">前端组</p>
@@ -190,22 +190,42 @@
                   Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组Java组
               </div>
             </li>
-          </ul>
-          <div class="swiper-container hidden-lg" style="margin-bottom: 10px;">
+          </ul> -->
+          <div class="swiper-container " style="margin-bottom: 20px;"><!-- hidden-lg -->
            <!-- hidden-md -->
             <div class="swiper-wrapper">
-                  <div class="swiper-slide">
+                  <div class="swiper-slide col-lg-10">
                     <div>
-                      <p style="font-size: 20px;">前端组</p>
-                      <div class="col-lg-6 col-sm-6">
-                        <img src="images/1.jpg" alt="">
+                      <p style="font-size: 30px;margin-bottom: 20px">前端组</p>
+                      <div class="col-lg-3">
+                        <img src="images/7.jpg" alt="" class="visible-lg-block">
                       </div>
                       <div class="col-lg-6 col-sm-6" style="text-align: left;" data-swiper-parallax="-200">
                         前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组
                       </div>
+                      <div class="col-lg-3 col-sm-6 text-left">
+                        <!-- <code> -->
+                        <tt>
+                          <pre>
+  &lt;!DOCTYPE html&gt;
+  &lt;html lang="en"&gt;
+  &lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;Hello World!&lt;/p&gt;
+  &lt;/body&gt;
+  &lt;/html>
+                          </pre>
+                          </tt>
+                        <!-- </code> -->
+          
+                      </div>
+                      
                     </div>
                   </div>
-                  <div class="swiper-slide">
+                  <div class="swiper-slide col-lg-10">
                     <div>
                       <p style="font-size: 20px;">PHP组</p>
                       <div class="col-lg-6 col-sm-6">
@@ -243,7 +263,7 @@
                     <div class="time">10月</div>
                     <div class="events">
                         <div class="events-header">成立
-                        <i class="glyphicon glyphicon-download"></i>
+                        <!-- <i class="glyphicon glyphicon-download"></i> -->
                         </div>
                         <div class="events-body">
                             <div class="row">
@@ -581,14 +601,30 @@
 <script type="text/javascript">
   $(function(){
     //swiper插件
+    // var swiper = new Swiper('.swiper-container', {
+    //   pagination: '.swiper-pagination',
+    //   slidesPerView: 1,
+    //   paginationClickable: true,
+    //   spaceBetween: 30,
+    //   loop: true,
+    //   parallax: true,
+    //   speed: 600
+    // });
     var swiper = new Swiper('.swiper-container', {
-      pagination: '.swiper-pagination',
-      slidesPerView: 1,
-      paginationClickable: true,
-      spaceBetween: 30,
-      loop: true,
-      parallax: true,
-      speed: 600
+        pagination: '.swiper-pagination',
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        coverflow: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows : false
+        },
+        parallax: true,
+        loop: true
     });
     window_width(); // 成员介绍
     function window_width() {

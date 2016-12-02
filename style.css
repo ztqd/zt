@@ -408,8 +408,13 @@ pre {
     padding: 5px 10px;
     display: block;
     clear: both;
-    background: #f7f7f7;
-    border: 1px solid #e7e7e7;
+    /*background: #f7f7f7;*/
+    /*border: 1px solid #e7e7e7;*/
+    border: 1px solid #fff;
+    padding-top: 15px;
+}
+tt {
+    color: #C7254E;
 }
 /*-----------------------------------------------------------------------------------*/
 /*  STUCTURE
@@ -2772,9 +2777,30 @@ option {
 
 .swiper-container {
     width: 100%;
-    /*height: 100%;*/
+    height: 90%;
     margin-left: auto;
     margin-right: auto;
+}
+.swiper-container .swiper-slide {
+    /*width: 90%;*/
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    font-size: 14px;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    padding-bottom: 60px;
 }
 .s-container {
     width: 100%;
@@ -2792,30 +2818,8 @@ option {
     margin-top: 60px;
     margin-bottom: 10px;
 }
-.swiper-slide {
-    text-align: center;
-    font-size: 14px;
-    /*background: #fff;*/
-
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-    padding-bottom: 40px;
-    padding-top: 20px;
+.s-container p span:first-child {
 }
-/*.swiper-button-prev, .swiper-container-rtl .swiper-button-next {
-    background-image: url();
-}*/
 .open_timeline, .close_timeline {
     background: #1ABC9C !important;
     cursor: pointer;
@@ -2829,10 +2833,15 @@ option {
     font-size: 18px;
     margin-bottom: 10px;
 }
-.s-container p span:first-child {
     color: #1ABC9C;
 }
 .s-container p span:last-child {
     border-bottom: 1px solid #303030;
     border-style: dashed;
+}
+@media (min-width: 1200px) {
+  .swiper-container .swiper-slide {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
 }
