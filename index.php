@@ -204,23 +204,14 @@
                         前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组前端组
                       </div>
                       <div class="col-lg-3 col-sm-6 text-left">
-                        <!-- <code> -->
                         <tt>
-                          <pre>
-  &lt;!DOCTYPE html&gt;
-  &lt;html lang="en"&gt;
-  &lt;head&gt;
-    &lt;meta charset="UTF-8"&gt;
-    &lt;title&gt;Document&lt;/title&gt;
-  &lt;/head&gt;
-  &lt;body&gt;
-    &lt;p&gt;Hello World!&lt;/p&gt;
-  &lt;/body&gt;
-  &lt;/html>
-                          </pre>
-                          </tt>
-                        <!-- </code> -->
-          
+                          授课内容：
+                            HTML
+                            css
+                            JavaScript
+                            Adobe Photoshop
+                            Adobe premiere
+                        </tt>
                       </div>
                       
                     </div>
